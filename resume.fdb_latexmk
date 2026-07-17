@@ -1,0 +1,20 @@
+# Fdb version 4
+["pdflatex"] 1784261923.08139 "/home/nightfury/Downloads/Hasnat_Resume/resume.tex" "resume.pdf" "resume" 1784261923.14761 2
+  "/home/nightfury/Downloads/Hasnat_Resume/resume.tex" 1784238336 1886 baab7360e48c75a2e8dd506a843b30ee ""
+  "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm" 1136768653 3584 adb004a0c8e7c46ee66cad73671f37b4 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/article.cls" 1777593600 20144 b966087dda3b194755eb460d32e2ef75 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty" 1777593600 5275 6f9d359641b36842524cdb97716ab75f ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty" 1777593600 5048 0270515b828149155424600fd2d58ac5 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo" 1777593600 8448 686612a86f0e04f41ea577f5ec7e83d8 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1777593600 43785 66587115382950aca692b5f6e3c2fb74 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1784260797 3334136 a19e12c64604bdd273a86ac38e0648d9 ""
+  "TLCresume.sty" 1784238336 1681 72d5a1d3e90a7e7471d8970298154b97 ""
+  "resume.aux" 1784261915.08084 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "resume.tex" 1784238336 1886 baab7360e48c75a2e8dd506a843b30ee ""
+  "sourcesanspro.sty" 0 -1 0 ""
+  (generated)
+  "resume.aux"
+  "resume.log"
+  "resume.pdf"
+  (rewritten before read)
