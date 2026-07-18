@@ -1,18 +1,17 @@
 %====================
 % Projects One
 %====================
-\textbf{WabiSaviArt --- Multi-Vendor Marketplace Platform}
+\textbf{WabiSaviArt --- Multi-Vendor E-Commerce Marketplace}
 \hfill
-\href{https://ahasnat.dev/projects/wabisaviart}{Project Details}
-
-A production-ready multi-vendor marketplace connecting buyers and verified makers through role-based dashboards, secure checkout, messaging, and a rich product catalog with variants, media, and storytelling features.
-
+\href{https://ahasnat.dev/projects/wabisaviart}{Project Details} \\
+A production-ready multi-vendor marketplace connecting buyers and verified makers through role-based dashboards, secure checkout, real-time messaging, and a rich product catalog with variants, media, and seller storytelling features.
 \begin{zitemize}
-    \item Developed a multi-vendor marketplace platform that supports buyer, seller, and administrator workflows.
-    \item Built the complete backend architecture with NestJS, Prisma ORM, PostgreSQL, Redis, and Stripe integrations.
-    \item Implemented payment processing, seller onboarding, refunds, media management, and marketplace administration features.
-    \item Real-time messaging between buyers and sellers with socket.
-    \item S3-compatible media uploads with presigned URLs.
+    \item Developed a multi-vendor marketplace supporting buyer, seller, and administrator workflows through fully isolated, role-scoped dashboards.
+    \item Built the complete NestJS backend architecture with Prisma ORM, PostgreSQL, Redis caching layer, and Stripe Connect for seller onboarding, product checkout, and automated payouts.
+    \item Implemented payment processing, refund workflows, dispute resolution, seller verification with authenticity badges, and marketplace administration features.
+    \item Real-time buyer--seller messaging via Socket.IO with presence indicators and message persistence.
+    \item S3-compatible media uploads with presigned URL generation for secure, scalable product image management.
+    \item Integrated Stripe webhook handler for async payment state reconciliation and payout automation.
 \end{zitemize}
 
 \vspace{0.5em}
@@ -20,19 +19,16 @@ A production-ready multi-vendor marketplace connecting buyers and verified maker
 %====================
 % Projects Two
 %====================
-\textbf{DovePDF --- Online PDF Toolkit Platform}
+\textbf{DovePDF --- Browser-Based PDF Processing Platform}
 \hfill
-\href{https://dovepdf.com}{Live} \textbar
-\href{https://ahasnat.dev/projects/dove-pdf}{Project Details}
-
-A web-based PDF tools platform that enables users to upload, edit, merge, compress, and optimize PDF files directly in the browser with client-side processing for enhanced privacy and instant feedback.
-
+\href{https://ahasnat.dev/projects/dove-pdf}{Live} \textbar{} \href{https://ahasnat.dev/projects/dove-pdf}{Project Details} \\
+A privacy-first, web-based PDF toolkit enabling users to edit, annotate, merge, compress, and export PDF files entirely in the browser with client-side processing for instant feedback and zero server-side file exposure.
 \begin{zitemize}
-    \item Built a full-stack PDF editing platform that supports annotations, signatures, image insertion, merging, compression, and export.
-    \item Developed PDF processing workflows, file handling systems, and document persistence mechanisms.
-    \item Integrated advanced client-side editing with optimized export pipelines for high-quality document generation.
-    \item Google Ads integration for monetization.
-    \item Monorepo architecture for scalable tool additions.
+    \item Built a full-stack PDF editing platform supporting annotations, signatures, image insertion, page reordering, merging, compression, and export --- all processed client-side via PDF-lib for enhanced privacy.
+    \item Offloaded heavy PDF processing to Web Workers to keep the main thread responsive on 50+ page documents; designed pixel-accurate overlay coordinate normalization for correct annotation export across zoom levels.
+    \item Architected undo/redo history system, local session persistence for resuming edits without re-upload, and drag-and-drop page reordering with live preview.
+    \item Structured as a Turborepo monorepo with tRPC for fully type-safe client--server communication and modular architecture for scalable tool additions.
+    \item Integrated Google Ads for monetization without server-side processing overhead; built optimized export pipelines for high-quality document generation.
 \end{zitemize}
 
 \vspace{0.5em}
@@ -40,16 +36,16 @@ A web-based PDF tools platform that enables users to upload, edit, merge, compre
 %====================
 % Projects Three
 %====================
-\textbf{Sarkar Group --- Internal Management System}
-\hfill
-\href{https://ahasnat.dev/projects/sarkar-group-smd}{More Details}
-
-A production-grade internal management platform for a construction and marine engineering company. Multiple roles — Super Admin, Admin, Project Manager, Engineer, and Client — each operate within a tailored, permission-isolated dashboard covering project lifecycle, equipment tracking, financial approvals, HR applications, media publishing, and real-time notifications.
-
-\begin{zitemize}
-    \item Project lifecycle management with engineer assignment, equipment linking, and status tracking.
-    \item Equipment request workflow: employee requests → admin approve/reject → auto-assign on approval.
-    \item 8 HR application types: leave, resignation, transfer, salary advance, loan, complaint, grievance, expense reimbursement.
-    \item Real-time SSE notifications pushed to all relevant users on every workflow event.
-\end{zitemize}
+% \textbf{Sarkar Group SMD --- Internal Operations Management System}
+% \hfill
+% \href{https://ahasnat.dev/projects/sarkar-group-smd}{Project Details}
+% A production-grade internal management platform for a construction and marine engineering company. Five distinct roles --- Super Admin, Admin, Project Manager, Engineer, and Client --- each operate within a tailored, permission-isolated dashboard covering project lifecycle, equipment tracking, financial approvals, HR applications, and real-time notifications.
+% \begin{zitemize}
+%     \item Built 5 isolated role dashboards (Super Admin, Admin, Project Manager, Engineer, Client) with fully scoped permission models --- each deployed to production and actively used.
+%     \item Project lifecycle management with engineer assignment, equipment linking, multi-stage status tracking, and client-facing progress views synchronized across roles in real time.
+%     \item Equipment registry with real-time status tracking (WORKING / RUNNING / STAND\_BY / BREAK\_DOWN), crew assignment, and request workflow --- employee requests, admin approves or rejects, auto-assigns on approval.
+%     \item 8 HR application types: leave, resignation, transfer, salary advance, loan, complaint, grievance, and expense reimbursement --- each with document upload, multi-level approval chain, and decline reason enforcement.
+%     \item Real-time SSE notifications pushed to all relevant users on every workflow event, fanned out to multiple role-based channels simultaneously.
+%     \item Financial approval workflows with atomic Prisma transactions; KPI dashboard with month-over-month delta calculations; rich-text media system with TipTap editor, image upload, keyword tagging, and comment threads.
+% \end{zitemize}
  
