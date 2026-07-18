@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1784344667.19906 "/home/nightfury/My Projects/Hasnat_Works/Hasnat_Resume_Latex/resume.tex" "resume.pdf" "resume" 1784344667.57167 0
+["pdflatex"] 1784344915.474 "/home/nightfury/My Projects/Hasnat_Works/Hasnat_Resume_Latex/resume.tex" "resume.pdf" "resume" 1784344915.8431 0
   "/home/nightfury/My Projects/Hasnat_Works/Hasnat_Resume_Latex/resume.tex" 1784344667.04924 1886 baab7360e48c75a2e8dd506a843b30ee ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/sourcesanspro/a_4jropk.enc" 1587936753 3267 177411e539fcc6ace86309ff03b22da6 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/sourcesanspro/a_5ponh6.enc" 1587936753 3344 37c976a8b2fa4b8f132a488735054f7d ""
@@ -116,12 +116,12 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1784343718 3334137 d5db1be86db660443b26b84533a089ec ""
   "TLCresume.sty" 1784238336 1681 72d5a1d3e90a7e7471d8970298154b97 ""
   "_header.tex" 1784238336 901 ee4c3cdfa439655dabe60bbbec4c3b73 ""
-  "resume.aux" 1784344667.51828 885 335f3325548cd3472e6927b7a8602107 "pdflatex"
-  "resume.out" 1784344667.51928 602 497f50f95ed87e774a305d30124e0223 "pdflatex"
+  "resume.aux" 1784344915.79129 885 335f3325548cd3472e6927b7a8602107 "pdflatex"
+  "resume.out" 1784344915.79229 602 497f50f95ed87e774a305d30124e0223 "pdflatex"
   "resume.tex" 1784344667.04924 1886 baab7360e48c75a2e8dd506a843b30ee ""
   "sections/education.tex" 1784238336 403 4eb0755532d1cd8aa65a993f9fcc4051 ""
   "sections/experience.tex" 1784265207.27988 1351 b4e49a36b9bd69a2da05fcd02e97941e ""
-  "sections/project.tex" 1784342708.07217 4572 5d51a5e8dab153ea83fcc77787c89907 ""
+  "sections/project.tex" 1784344915.32116 4574 39cd06a6a770713c27834b8fd56f32e2 ""
   "sections/skills.tex" 1784275654.65417 866 ecff0acb34a5cbedd1ee6206059042ee ""
   (generated)
   "resume.aux"
